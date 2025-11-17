@@ -44,6 +44,27 @@
 	height:auto;
 	border:1px solid #ddd
 	}
+
+	/* Styl dla ciemnego tła */
+	#img-overlay {
+	  display: none;
+	  position: fixed;
+	  inset: 0;
+	  background: rgba(0,0,0,0.8);
+	  justify-content: center;
+	  align-items: center;
+	  z-index: 9999;
+	}
+
+	/* Obraz w powiększeniu */
+	#img-overlay img {
+	  max-width: 90%;
+	  max-height: 90%;
+	  border-radius: 10px;
+	  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	  cursor: zoom-out;
+	}
+	
     .video{
 	min-width:320px
 	}
